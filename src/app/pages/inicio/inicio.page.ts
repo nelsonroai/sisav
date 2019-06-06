@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuController } from '@ionic/angular';
+import { Componente } from '../../interfaces/interfaces';
 
 @Component({
   selector: 'app-inicio',
@@ -21,8 +22,3 @@ export class InicioPage implements OnInit {
 
 }
 
-interface Componente {
-  icon: string;
-  name: string;
-  redirectTo: string;
-}

@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'actividades', loadChildren: './pages/actividades/actividades.module#ActividadesPageModule' },
   { path: 'financiamiento', loadChildren: './pages/financiamiento/financiamiento.module#FinanciamientoPageModule' },
   { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
+  { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' }
 ];
 
 @NgModule({

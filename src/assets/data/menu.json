@@ -37,5 +37,10 @@
         "icon": "md-cash",
         "name": "Memorandum",
         "redirectTo": "/financiamiento"
+    },
+    {
+        "icon": "Login",
+        "name": "Login",
+        "redirectTo": "/login"
     }
 ]

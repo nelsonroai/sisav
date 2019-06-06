@@ -8,55 +8,14 @@ import { MenuController } from '@ionic/angular';
 })
 export class InicioPage implements OnInit {
 
-  componentes: Componente[] = [
-    {
-      icon: 'md-paper-plane',
-      name: 'Lista Proyectos',
-      redirectTo: '/listaproyectos'
-    },
-    {
-      icon: 'md-paper-plane',
-      name: 'Ejecucion Proyectos 2019',
-      redirectTo: '/ejecucionproyectos'
-    },
-    {
-      icon: 'ios-paper',
-      name: 'Lista Programas VcM',
-      redirectTo: '/listaprogramas'
-    },
-    {
-      icon: 'ios-paper',
-      name: 'Ejecucion Programas 2019',
-      redirectTo: '/ejecucionprogramas'
-    },
-    {
-      icon: 'md-list',
-      name: 'Lista Extensión',
-      redirectTo: '/listaextension'
-    },
-    {
-      icon: 'md-list',
-      name: 'Ejecucion Extensión 2019',
-      redirectTo: '/ejecucionextension'
-    },
-    {
-      icon: 'md-settings',
-      name: 'Hitos/Actividades 2019',
-      redirectTo: '/actividades'
-    },
-    {
-      icon: 'md-cash',
-      name: 'Memorandum',
-      redirectTo: '/financiamiento'
-    }
-  ];
+  componentes: Componente[] = [];
 
 
   constructor( private menuCtrl: MenuController) { }
 
   ngOnInit() {
   }
-  toggleMenu(){
+  toggleMenu() {
     this.menuCtrl.toggle();
   }
 

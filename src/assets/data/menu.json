@@ -39,7 +39,7 @@
         "redirectTo": "/financiamiento"
     },
     {
-        "icon": "Login",
+        "icon": "md-alarm",
         "name": "Login",
         "redirectTo": "/login"
     }
